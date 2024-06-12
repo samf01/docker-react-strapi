@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rocks",
+  "info": {
+    "singularName": "rock",
+    "pluralName": "rocks",
+    "displayName": "Rock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
